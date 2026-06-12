@@ -1,6 +1,5 @@
 # Ядро и системные настройки
 /bitrix/*
-!/bitrix/php_interface/
 /upload/
 
 # Временные файлы и кэш
