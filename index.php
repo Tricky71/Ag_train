@@ -14,7 +14,7 @@ $APPLICATION->SetTitle("Интернет-магазин «АвтоЗапчаст
     </p>
     
     <div style="margin: 30px 0;">
-        <a href="/catalog/" style="display: inline-block; padding: 12px 24px; background: #007bff; color: #fff; text-decoration: none; font-weight: bold; border-radius: 4px; transition: background 0.2s;">
+        <a href="/catalog/" style="display: inline-block; padding: 12px 24px; background: #888; color: #fff; text-decoration: none; font-weight: bold; border-radius: 4px; transition: background 0.2s;">
             Перейти в каталог товаров ➡️
         </a>
     </div>
