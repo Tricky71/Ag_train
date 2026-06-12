@@ -1,0 +1,14 @@
+# Ядро и системные настройки
+/bitrix/*
+/upload/
+
+# Временные файлы и кэш
+/bitrix/cache/
+/bitrix/managed_cache/
+/bitrix/stack_cache/
+/upload/tmp/
+*.log
+
+.htaccess
+.DS_Store
+Thumbs.db

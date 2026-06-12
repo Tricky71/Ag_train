@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<hiblock>
+		<id>1</id>
+		<name>Brands</name>
+		<table_name>b_hl_brands</table_name>
+	</hiblock>
+	<langs>
+		<lang>
+			<id>1</id>
+			<lid>ru</lid>
+			<name>Бренды</name>
+		</lang>
+		<lang>
+			<id>1</id>
+			<lid>en</lid>
+			<name>Brands</name>
+		</lang>
+	</langs>
+	<fields>
+		<field>
+			<id>8</id>
+			<entity_id>HLBLOCK_1</entity_id>
+			<field_name>UF_NAME</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en>Name</en>
+				<ru>Название</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>9</id>
+			<entity_id>HLBLOCK_1</entity_id>
+			<field_name>UF_FILE</field_name>
+			<user_type_id>file</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<list_width>0</list_width>
+				<list_height>0</list_height>
+				<max_show_size>0</max_show_size>
+				<max_allowed_size>0</max_allowed_size>
+				<extensions />
+				<target_blank>Y</target_blank>
+				<default_view />
+			</settings>
+			<edit_form_label>
+				<en>Logo</en>
+				<ru>Логотип</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>file</base_type>
+		</field>
+		<field>
+			<id>10</id>
+			<entity_id>HLBLOCK_1</entity_id>
+			<field_name>UF_COUNTRY</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en>Country</en>
+				<ru>Страна</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>11</id>
+			<entity_id>HLBLOCK_1</entity_id>
+			<field_name>UF_DESCRIPTION</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<ru>Описание</ru>
+			</edit_form_label>
+			<list_column_label>
+				<ru>Описание</ru>
+			</list_column_label>
+			<list_filter_label>
+				<ru>Описание</ru>
+			</list_filter_label>
+			<error_message>
+				<ru />
+			</error_message>
+			<help_message>
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>12</id>
+			<entity_id>HLBLOCK_1</entity_id>
+			<field_name>UF_FULL_DESCRIPTION</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<ru>Полное описание</ru>
+			</edit_form_label>
+			<list_column_label>
+				<ru>Полное описание</ru>
+			</list_column_label>
+			<list_filter_label>
+				<ru>Полное описание</ru>
+			</list_filter_label>
+			<error_message>
+				<ru />
+			</error_message>
+			<help_message>
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>13</id>
+			<entity_id>HLBLOCK_1</entity_id>
+			<field_name>UF_XML_ID</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>audi</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru />
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+	</fields>
+	<items>
+		<item>
+			<id>5</id>
+			<uf_name>Akom</uf_name>
+			<uf_file>0</uf_file>
+			<uf_country />
+			<uf_description />
+			<uf_full_description />
+			<uf_xml_id>akom</uf_xml_id>
+		</item>
+		<item>
+			<id>6</id>
+			<uf_name>Mutlu</uf_name>
+			<uf_file>0</uf_file>
+			<uf_country />
+			<uf_description />
+			<uf_full_description />
+			<uf_xml_id>mutlu</uf_xml_id>
+		</item>
+		<item>
+			<id>7</id>
+			<uf_name>Лукойл</uf_name>
+			<uf_file>0</uf_file>
+			<uf_country />
+			<uf_description />
+			<uf_full_description />
+			<uf_xml_id>lukoil</uf_xml_id>
+		</item>
+		<item>
+			<id>8</id>
+			<uf_name>Nord</uf_name>
+			<uf_file>0</uf_file>
+			<uf_country />
+			<uf_description />
+			<uf_full_description />
+			<uf_xml_id>nord</uf_xml_id>
+		</item>
+		<item>
+			<id>9</id>
+			<uf_name>Osram</uf_name>
+			<uf_file>0</uf_file>
+			<uf_country />
+			<uf_description />
+			<uf_full_description />
+			<uf_xml_id>osram</uf_xml_id>
+		</item>
+		<item>
+			<id>10</id>
+			<uf_name>Renault</uf_name>
+			<uf_file>0</uf_file>
+			<uf_country />
+			<uf_description />
+			<uf_full_description />
+			<uf_xml_id>renault</uf_xml_id>
+		</item>
+		<item>
+			<id>11</id>
+			<uf_name>NGK</uf_name>
+			<uf_file>0</uf_file>
+			<uf_country />
+			<uf_description />
+			<uf_full_description />
+			<uf_xml_id>ngk</uf_xml_id>
+		</item>
+		<item>
+			<id>12</id>
+			<uf_name>Bosch</uf_name>
+			<uf_file>0</uf_file>
+			<uf_country />
+			<uf_description />
+			<uf_full_description />
+			<uf_xml_id>bosch</uf_xml_id>
+		</item>
+		<item>
+			<id>13</id>
+			<uf_name>BBQ</uf_name>
+			<uf_file>0</uf_file>
+			<uf_country />
+			<uf_description />
+			<uf_full_description />
+			<uf_xml_id>bbq</uf_xml_id>
+		</item>
+	</items>
+</hiblock>
